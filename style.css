@@ -1,0 +1,15 @@
+/*Code by DrewBStew*/
+
+a:visited {
+  text-decoration: none;
+}
+
+.quotebox {
+  max-width: 850px;
+  margin:auto;
+  display: block;
+}
+
+.row {
+  display: block;
+}
