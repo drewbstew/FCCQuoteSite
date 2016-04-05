@@ -105,6 +105,48 @@ var quotes = [
     episode_no:"14",
     episode_name:"Scenes from the Class Struggle in Springfield",
     airdate: 1996
+  },
+  {
+    string:"What's the point of going out? We're just gonna wind up back here anyway.",
+    season:"7",
+    episode_no:"14",
+    episode_name:"Scenes from the Class Struggle in Springfield",
+    airdate: 1996
+  },
+  {
+    string:"Hello, operator! Give me the number for 9-1-1!",
+    season:"2",
+    episode_no:"7",
+    episode_name:"Bart vs. Thanksgiving",
+    airdate:"1990"
+  },
+  {
+    string:"To alcohol! The cause of, and solution to, all of life's problems.",
+    season:"8",
+    episode_no:"18",
+    episode_name:"Homer vs. the Eighteenth Amendment",
+    airdate:"1997"
+  },
+  {
+    string:"Kids, you tried your best and you failed miserably. The lesson is: never try.",
+    season:"5",
+    episode_no:"18",
+    episode_name:"Burns' Heir",
+    airdate:"1994"
+  },
+  {
+    string:"Weaseling out of things is important to learn. It's what separates us from the animals! Except the weasel.",
+    season:"5",
+    episode_no:"8",
+    episode_name:"Boy Scoutz 'n the Hood",
+    airdate:"1993"
+  },
+  {
+    string:"Facts are meaningless. You could use facts to prove anything that's even remotely true.",
+    season:"9",
+    episode_no:"8",
+    episode_name:"Lisa the Skeptic",
+    airdate:"1997"
   }
 ];
 
