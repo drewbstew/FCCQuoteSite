@@ -40,6 +40,9 @@ NEW QUOTE
   border-radius: 15px;
   background-color: white;
   padding: 15px;
+  display:block;
+  text-align: center;
+  box-shadow: 5px 5px 5px #999;
 }
 
 #new-quote-btn:hover {
@@ -84,6 +87,10 @@ QUOTE BOX
 
 .social-links a {
   font-size: 32px;
+}
+
+#twitter-btn:hover {
+  color:#00aced;
 }
 
 

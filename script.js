@@ -104,14 +104,14 @@ var quotes = [
     season:"7",
     episode_no:"14",
     episode_name:"Scenes from the Class Struggle in Springfield",
-    airdate: 1996
+    airdate: "1996"
   },
   {
     string:"What's the point of going out? We're just gonna wind up back here anyway.",
     season:"7",
     episode_no:"14",
     episode_name:"Scenes from the Class Struggle in Springfield",
-    airdate: 1996
+    airdate: "1996"
   },
   {
     string:"Hello, operator! Give me the number for 9-1-1!",
