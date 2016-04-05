@@ -4,16 +4,18 @@
   <header>
     <title>Homer Simpson Quote Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="icon" href="favicon.png" type="image/png" />
+    <script type="text/javascript" src="script.js"></script>
   </header>
   <body>
     <div class="center-div">
       <div class="new-quote">
-        <a class="new-quote-btn" href="#">Homer me again!</a>
+        <a id="new-quote-btn" href="#">Homer me again!</a>
         <div class="quote-box">
           <div class="inner-box">
-            <p><i class="fa fa-quote-left"></i>This is a quote. It's really insightful or perhaps funny, and junk. Now, ponder its meaning and pass off the quote as your own.<i class="fa fa-quote-right"></i></p>
+            <p id="quote"><i class="fa fa-quote-left"></i>This is a quote. It's really insightful or perhaps funny, and junk. Now, ponder its meaning and pass off the quote as your own.<i class="fa fa-quote-right"></i></p>
+            <p id="quote-info">Season 01, Episode 01: The Blankening (1492)</p>
             <div class="social-links row">
               <a class="fa fa-facebook-square" href="#"></a>
               <a class="fa fa-twitter-square" href="#"></a>
@@ -22,8 +24,15 @@
           </div>
         </div>
         <div class="attributions">
-          <p>Background image from <a href="https://entertainment.desktopnexus.com/get/2088193/?t=1a8rc3bka1hbsab52vvnmir0c15703034d27d0c">DesktopNexus</a></p>
-          <p>Code from <a href="https://github.com/drewbstew">DrewBStew</a></p>
+          <p>Background image adapted from <a href="https://entertainment.desktopnexus.com/get/2088193/?t=1a8rc3bka1hbsab52vvnmir0c15703034d27d0c">DesktopNexus</a><br />Code from <a href="https://github.com/drewbstew">DrewBStew</a></p>
+        </div>
+      </div>
+      <div class="homer-images">
+        <div class="homer-head-left">
+          <img src="images/homer_solo.png" />
+        </div>
+        <div class="homer-head-right">
+          <img src="images/homer_solo.png" />
         </div>
       </div>
     </div>

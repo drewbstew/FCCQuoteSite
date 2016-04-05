@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url(images/homer_bg.jpg);
+  background-color: #FED420;
 }
 
 a {
@@ -31,13 +31,13 @@ a:visited {
   margin-top: 50px;
 }
 
-.new-quote-btn {
+#new-quote-btn {
   border-radius: 15px;
   background-color: white;
   padding: 15px;
 }
 
-.new-quote-btn:hover {
+#new-quote-btn:hover {
   color: white;
   background-color: black;
 }
@@ -70,8 +70,13 @@ a:visited {
   display: block;
 }
 
+#quote-info {
+  text-align: right;
+  font-size: 18px;
+}
+
 .social-links a {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 
@@ -91,8 +96,27 @@ a:visited {
   text-decoration: underline;
   color: blue;
 }
+
+.attributions p {
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .attributions p a {
   color: blue;
+}
+
+/*HOMER IMAGES*/
+
+.homer-images {
+  display:block;
+}
+
+.homer-images .homer-head-left {
+  float:left;
+}
+
+.homer-images .homer-head-right {
+  transform: scaleX(-1);
+  float:right;
 }
