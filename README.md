@@ -1,7 +1,7 @@
 Homer Simpson Quote Generator
 
 Features:
-* 12 (count them: 12!) quotes to choose from at random
+* 18 (count them: 18!) quotes to choose from at random
 * New Quote button to get new quote w/out reloading the page
 * Displays information about season & episode #, episode name, and original year of air
 
