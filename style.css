@@ -1,4 +1,6 @@
-/*Code by DrewBStew*/
+/*
+Code by DrewBStew
+*/
 
 * {
   margin: 0;
@@ -26,7 +28,9 @@ a:visited {
   padding: 0 25px;
 }
 
-/*NEW QUOTE*/
+/*
+NEW QUOTE
+*/
 
 .new-quote {
   margin-top: 50px;
@@ -43,7 +47,9 @@ a:visited {
   background-color: black;
 }
 
-/*QUOTE BOX*/
+/*
+QUOTE BOX
+*/
 
 .quote-box {
   margin:auto;
@@ -81,7 +87,9 @@ a:visited {
 }
 
 
-/*ATTRIBUTIONS*/
+/*
+ATTRIBUTIONS
+*/
 
 .attributions {
   margin:auto;
@@ -107,7 +115,9 @@ a:visited {
   color: blue;
 }
 
-/*HOMER IMAGES*/
+/*
+HOMER IMAGES
+*/
 
 .homer-images {
   display:block;
@@ -120,4 +130,27 @@ a:visited {
 .homer-images .homer-head-right {
   transform: scaleX(-1);
   float:right;
+}
+
+/*
+MEDIA QUERIES
+*/
+
+@media (max-width: 800px) {
+
+  .homer-head-right {
+    width:50%;
+  }
+
+  .homer-head-right img {
+    width: 100%;
+  }
+
+  .homer-head-left {
+    width: 50%;
+  }
+
+  .homer-head-left img {
+    width: 100%;
+  }
 }
