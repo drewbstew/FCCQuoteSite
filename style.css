@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 body {
@@ -17,23 +16,50 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: inherit;
+  color: black;
+}
+
+.center-div {
+  max-width: 850px;
+  display: block;
+  margin:auto;
+}
+
+/*NEW QUOTE*/
+
+.new-quote {
+  margin-top: 50px;
+}
+
+.new-quote-btn {
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px;
+}
+
+.new-quote-btn:hover {
+  color: white;
+  background-color: black;
 }
 
 /*QUOTE BOX*/
 
 .quote-box {
-  max-width: 850px;
   margin:auto;
   display: block;
   background-color: white;
   border-radius: 15px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .quote-box p {
   color: black;
   padding-bottom: 15px;
+  font-size: 24px;
+}
+
+.quote-box p i {
+  color: inherit;
 }
 
 .quote-box .inner-box {
@@ -42,4 +68,31 @@ a:visited {
 
 .quote-box .row {
   display: block;
+}
+
+.social-links a {
+  font-size: 24px;
+}
+
+
+/*ATTRIBUTIONS*/
+
+.attributions {
+  margin:auto;
+  display: block;
+  text-align: right;
+}
+
+.attributions a {
+  color: blue;
+}
+
+.attributions a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+}
+
+.attributions p a {
+  color: blue;
 }
