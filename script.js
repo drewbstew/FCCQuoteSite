@@ -164,7 +164,11 @@ function getQuoteNumber() {
 }
 
 function updateQuote() {
-  quoteNumber = getQuoteNumber();
+  newRando = getQuoteNumber();
+  while (newRando == quoteNumber) {
+    newRando = getQuoteNumber();
+  }
+  quoteNumber = newRando;
   quote.innerHTML = '<i class="fa fa-quote-left"></i>' + quotes[quoteNumber].string + '<i class="fa fa-quote-right"></i>';
   quoteInfo.innerHTML =  'Season ' + quotes[quoteNumber].season +
    ', Episode ' + quotes[quoteNumber].episode_no + ': ' + quotes[quoteNumber].episode_name + ' (' + quotes[quoteNumber].airdate + ')';
