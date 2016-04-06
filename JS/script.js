@@ -1,11 +1,5 @@
 /*
 Site created by DrewBStew, 2016
-
-Pseudo-code fun:
-
-1) Each quote has its own object
-2) objects have properties of string (the actual quote), season#, episode#, episode_name, airdate
-3) Example: string="Mmm... sacrilicious.", season#=5, episode#=16, episode_name="Homes Loves Flanders", airdate="1994"
 */
 
 /*
