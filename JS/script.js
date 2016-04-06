@@ -9,6 +9,7 @@ SELECTORS
 var quote = $("#quote");
 var quoteInfo = $("#quote-info");
 var newQuoteButton = $("#new-quote-btn");
+var twitterButton = $("#twitter-btn");
 
 /*
 EVENTS
@@ -17,7 +18,12 @@ EVENTS
 var quoteNumber = getQuoteNumber();
 
 newQuoteButton.on("click", function(){
-  updateQuote() });
+  updateQuote()
+});
+
+twitterButton.on("click", function() {
+  postToTwitter()
+});
 
 function getQuoteNumber() {
   return Math.floor(Math.random() * quotes.length);
@@ -36,6 +42,12 @@ function updateQuote() {
     ', Episode ' + quotes[quoteNumber].episode_no + ': ' +
     quotes[quoteNumber].episode_name + ' (' + quotes[quoteNumber].airdate + ')');
 }
+
+function postToTwitter() {
+  twitterButton.attr("href","https://twitter.com/intent/tweet?url=http://drewbstew.github.io/homer_quotes&text=" + quote.text())
+}
+
+
 
 /*
 DOCUMENT READY
