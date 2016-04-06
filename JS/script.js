@@ -6,9 +6,9 @@ Site created by DrewBStew, 2016
 SELECTORS
 */
 
-var quote = document.getElementById("quote");
-var quoteInfo = document.getElementById("quote-info");
-var newQuoteButton = document.getElementById("new-quote-btn");
+var quote = $("#quote");
+var quoteInfo = $("#quote-info");
+var newQuoteButton = $("#new-quote-btn");
 
 /*
 EVENTS
@@ -16,7 +16,7 @@ EVENTS
 
 var quoteNumber = getQuoteNumber();
 
-newQuoteButton.addEventListener("click", updateQuote);
+newQuoteButton.on("click", updateQuote);
 
 function getQuoteNumber() {
   return Math.floor(Math.random() * quotes.length);
@@ -40,4 +40,4 @@ function updateQuote() {
 DOCUMENT READY
 */
 
-updateQuote();
+$(document).ready(updateQuote);
