@@ -16,7 +16,8 @@ EVENTS
 
 var quoteNumber = getQuoteNumber();
 
-newQuoteButton.on("click", updateQuote);
+newQuoteButton.on("click", function(){
+  updateQuote() });
 
 function getQuoteNumber() {
   return Math.floor(Math.random() * quotes.length);
@@ -30,14 +31,16 @@ function updateQuote() {
   }
   quoteNumber = newRando;
   // This gets rid of repeated quotes
-  quote.innerHTML = '<i class="fa fa-quote-left"></i>' + quotes[quoteNumber].string + '<i class="fa fa-quote-right"></i>';
-  quoteInfo.innerHTML =  'Season ' + quotes[quoteNumber].season +
-   ', Episode ' + quotes[quoteNumber].episode_no + ': ' +
-   quotes[quoteNumber].episode_name + ' (' + quotes[quoteNumber].airdate + ')';
+  quote.html('<i class="fa fa-quote-left"></i>' + quotes[quoteNumber].string + '<i class="fa fa-quote-right"></i>');
+  quoteInfo.html('Season ' + quotes[quoteNumber].season +
+    ', Episode ' + quotes[quoteNumber].episode_no + ': ' +
+    quotes[quoteNumber].episode_name + ' (' + quotes[quoteNumber].airdate + ')');
 }
 
 /*
 DOCUMENT READY
 */
 
-$(document).ready(updateQuote);
+$(document).ready(function() {
+  updateQuote();
+});
