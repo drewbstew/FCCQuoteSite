@@ -11,4 +11,4 @@ Planned to Come:
 * Social links that actually work
 * Maybe better CSS style for buttons? Jesus, I'm not a miracle worker.
 
-Last Commit: 4-5-2016; Added more quotes.
+Last Commit: 4-6-2016; swapped out vanilla JS for jQuery (so fresh and so clean clean).
