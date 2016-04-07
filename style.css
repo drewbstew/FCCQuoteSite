@@ -43,6 +43,9 @@ NEW QUOTE
   display:block;
   text-align: center;
   box-shadow: 5px 5px 5px #999;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-style: italic;
 }
 
 #new-quote-btn:hover {
@@ -69,6 +72,8 @@ QUOTE BOX
   font-size: 24px;
   line-height: 30px;
   height: 100px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 
 .quote-box p i {
@@ -86,7 +91,8 @@ QUOTE BOX
 #quote-info {
   text-align: right;
   font-size: 18px;
-
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 .social-links {
