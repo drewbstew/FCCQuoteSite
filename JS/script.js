@@ -16,6 +16,7 @@ EVENTS
 */
 
 var quoteNumber = getQuoteNumber();
+var buttonNumber = getButtonNumber();
 
 newQuoteButton.on("click", function(){
   updateQuote()
@@ -30,6 +31,15 @@ function getQuoteNumber() {
   // random number between 0 & 1, times the number of quotes, then floored
 }
 
+function getButtonNumber() {
+  return Math.floor(Math.random() * buttonText.length);
+}
+
+function updateButtonText() {
+  buttonNumber = getButtonNumber();
+  newQuoteButton.text(buttonText[buttonNumber]);
+}
+
 function updateQuote() {
   newRando = getQuoteNumber();
   while (newRando == quoteNumber) {
@@ -41,13 +51,12 @@ function updateQuote() {
   quoteInfo.html('Season ' + quotes[quoteNumber].season +
     ', Episode ' + quotes[quoteNumber].episode_no + ': ' +
     quotes[quoteNumber].episode_name + ' (' + quotes[quoteNumber].airdate + ')');
+  updateButtonText();
 }
 
 function postToTwitter() {
   twitterButton.attr("href","https://twitter.com/intent/tweet?url=http://drewbstew.github.io/homer_quotes&text=" + quote.text())
 }
-
-
 
 /*
 DOCUMENT READY
