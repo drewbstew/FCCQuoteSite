@@ -55,7 +55,7 @@ function updateQuote() {
 }
 
 function postToTwitter() {
-  twitterButton.attr("href","https://twitter.com/intent/tweet?url=http://drewbstew.github.io/homer_quotes&text=" + quote.text())
+  twitterButton.attr("href","https://twitter.com/intent/tweet?url=https://drewbstew.github.io/homer_quotes&text=" + quote.text())
 }
 
 /*
