@@ -130,3 +130,15 @@ var quotes = [
     airdate:"1997"
   }
 ];
+
+/*
+BUTTON TEXT
+*/
+
+var buttonText = [
+  "Show me the Homer!",
+  "E-T-Phone-Homer!",
+  "Homer's where the heart is.",
+  "D'oh-Re-Mi!",
+  "I hope I didn't brain my damage."
+];
