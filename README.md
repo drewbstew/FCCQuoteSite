@@ -5,6 +5,7 @@ Features:
 * New Quote button to get new quote w/out reloading the page
 * Displays information about season & episode #, episode name, and original year of air
 * Tweet your quote to... Twitter! The place for tweets.
+* New wacky randomized button text! Waaaacky! YOU CAN'T HANDLE THE EXCITEMENT.
 
 Planned to Come:
 * Way more quotes
