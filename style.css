@@ -60,19 +60,22 @@ QUOTE BOX
   background-color: white;
   border-radius: 15px;
   margin-top: 20px;
+  min-height: 200px;
 }
 
-.quote-box p {
+#quote {
   color: black;
   padding-bottom: 15px;
   font-size: 24px;
+  line-height: 30px;
+  height: 100px;
 }
 
 .quote-box p i {
   color: inherit;
 }
 
-.quote-box .inner-box {
+.inner-box {
   padding: 25px;
 }
 
@@ -83,10 +86,15 @@ QUOTE BOX
 #quote-info {
   text-align: right;
   font-size: 18px;
+
+}
+
+.social-links {
+  bottom: 100;
 }
 
 .social-links a {
-  font-size: 32px;
+  font-size: 48px;
 }
 
 #twitter-btn:hover {
